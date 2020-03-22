@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "866435753217",
+    "firebase_url": "https://sesionroom.firebaseio.com",
+    "project_id": "sesionroom",
+    "storage_bucket": "sesionroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866435753217:android:5d6b38d3e865668f75a700",
+        "android_client_info": {
+          "package_name": "com.edwinacubillos.sesionroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866435753217-vqjc342n1kbbbmb540mr2dlaegdr1o5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edwinacubillos.sesionroom",
+            "certificate_hash": "c2561be34123b665adb9e1288f9439bd5748cee1"
+          }
+        },
+        {
+          "client_id": "866435753217-51l56mrsr6gpfshdhrm883pr2dou0fl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmw4IXJiuIDVey4_kKiR0dnxgRghl8N_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866435753217-51l56mrsr6gpfshdhrm883pr2dou0fl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

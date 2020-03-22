@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mis Deudas</string>
+    <string name="title_create">Create</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_list">List</string>
+    <string name="title_read">Read</string>
+    <string name="title_update">Update</string>
+    <string name="name">Digite nombre del deudor</string>
+    <string name="phone">Teléfono</string>
+    <string name="owe">Deuda en pesos</string>
+    <string name="save">Guardar</string>
+    <string name="nombre">Nombre Deudor</string>
+    <string name="deuda">Deuda</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nuevo_valor">Digite nuevo valor de deuda</string>
+    <string name="nuevo_telefono">Digite Nuevo Telefono</string>
+    <string name="accept">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="password">Contreña (min 6 caracteres)</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="correo">Digite Correo Electrónico</string>
+    <string name="rep_password">Repetir Contraseña</string>
+    <string name="log_out">Cerrar Sesión</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="registrate">No tienes cuenta, Registrate</string>
+</resources>
