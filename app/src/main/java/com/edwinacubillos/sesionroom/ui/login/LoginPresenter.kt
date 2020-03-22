@@ -1,6 +1,5 @@
 package com.edwinacubillos.sesionroom.ui.login
 
-import android.app.Activity
 import com.edwinacubillos.sesionroom.isEmailValid
 import com.google.firebase.auth.FirebaseUser
 
@@ -10,7 +9,7 @@ class LoginPresenter(
 
     private var loginModel: LoginMVP.Model = LoginModel(this)
 
-    override fun btLoginClicked(activity: Activity) {
+    override fun btLoginClicked() {
 
         if (loginView.getCorreo().trim().equals("") || loginView.getPassword().trim().equals("")) {
             loginView.showInputErrorEmpty()
@@ -23,8 +22,7 @@ class LoginPresenter(
                 } else {
                     loginModel.logUser(
                         loginView.getCorreo().trim(),
-                        loginView.getPassword().trim(),
-                        activity
+                        loginView.getPassword().trim()
                     )
                     loginView.showProgressBar()
                 }

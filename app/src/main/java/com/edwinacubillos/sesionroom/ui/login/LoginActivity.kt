@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity(), LoginMVP.View {
         loginPresenter = LoginPresenter(this)
 
         bt_login.setOnClickListener {
-            loginPresenter?.btLoginClicked(this)
+            loginPresenter?.btLoginClicked()
         }
 
         tv_registro.setOnClickListener {

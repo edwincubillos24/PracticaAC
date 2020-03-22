@@ -20,7 +20,7 @@ interface LoginMVP {
     }
 
     interface Presenter {
-        fun btLoginClicked(activity: Activity)
+        fun btLoginClicked()
         fun btRegistroClicked()
         fun loadUserConnected()
         fun loginSuccessfull()
@@ -33,10 +33,7 @@ interface LoginMVP {
     interface Model {
         fun logUser(
             correo: String,
-            password: String,
-            activity: Activity
-        )
-
+            password: String)
         fun loadUserConnected()
     }
 }

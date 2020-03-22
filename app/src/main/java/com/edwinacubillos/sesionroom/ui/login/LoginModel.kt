@@ -1,20 +1,18 @@
 package com.edwinacubillos.sesionroom.ui.login
 
-import android.app.Activity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 
-class LoginModel(val loginPresenter: LoginMVP.Presenter) : LoginMVP.Model {
+class LoginModel(private val loginPresenter: LoginMVP.Presenter) : LoginMVP.Model {
 
-    val auth = FirebaseAuth.getInstance()
+    private val auth = FirebaseAuth.getInstance()
 
     override fun logUser(
         correo: String,
-        password: String,
-        activity: Activity
+        password: String
     ) {
         auth.signInWithEmailAndPassword(correo, password)
-            .addOnCompleteListener(activity) { task ->
+            .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     loginPresenter.loginSuccessfull()
                 } else {
